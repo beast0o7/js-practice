@@ -786,3 +786,51 @@
 // };
 // myObject.func();
 
+
+
+// console.log(['1','6','11'].map(parseInt));//????????
+
+
+// arra = [1,22,33,31];
+// function smallest(arr){
+//     let smallest = arr[0];
+//     for(let ele of arr){
+//         if(smallest>ele){
+//             smallest = ele
+//         }
+//     }
+//     return smallest;
+// }
+
+// function largest(arr){
+//     let largest = arr[0];
+//     for(let ele of arr){
+//         if(largest<ele){
+//             largest = ele
+//         }
+//     }
+//     return largest;
+// }
+// console.log(Number.NEGATIVE_INFINITY)
+// console.log(smallest(arra));
+// console.log(largest(arra));
+
+
+
+// let x = (y=10+10,y = 10,y);
+// console.log(x);//brackets 
+
+
+// prices = [1,3,46,7,89,2,6,54,1,2,4,6,]
+
+// let indianR = prices.map((ele)=>{
+//     return ele *70
+// })
+// .filter((ele)=>{
+//     return ele<500
+// })
+// .reduce((acc,cur)=>{
+//     return acc+cur
+// });
+
+// console.log(indianR)//MAP FILTER REDUCE
